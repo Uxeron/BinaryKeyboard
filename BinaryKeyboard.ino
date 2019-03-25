@@ -74,7 +74,7 @@ void loop() {
     }
   } else B_1 = false;
   
-  if(digitalRead(6) == 0) {
+  if(digitalRead(6) == 1) {
     if(!B_0) {
       // Don't set anyting, since the bit is already 0
       turnOn(pos, false);
